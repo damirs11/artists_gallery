@@ -13,8 +13,9 @@ config = {
 
 app = Flask(__name__, static_url_path='', static_folder='client/build')
 app.config.from_mapping(config)
+app.config['CORS_HEADERS'] = 'Content-Type'
 cache = Cache(app)
-CORS(app)
+CORS(app, resources={'*': {'origin': '*'}})
 flask_api = Api(app)
 
 
