@@ -1,7 +1,7 @@
 import axios from "axios";
 
-// const api = '/api'
-const api = 'http://192.168.0.2:5000/api'
+const api = '/api'
+// const api = 'http://192.168.0.2:5000/api'
 
 type GroupPosts = {
     count: number,
