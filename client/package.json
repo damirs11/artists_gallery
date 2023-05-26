@@ -26,9 +26,7 @@
     "react-router-dom": "^6.11.1",
     "typescript": "^4.9.5",
     "web-vitals": "^2.1.4",
-    "yet-another-react-lightbox": "^3.9.0"
-  },
-  "devDependencies": {
+    "yet-another-react-lightbox": "^3.9.0",
     "@types/axios": "^0.14.0",
     "react-scripts": "^5.0.1"
   },
