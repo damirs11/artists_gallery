@@ -1,0 +1,16 @@
+html, body, #root, #root > * {
+    height: 100vh;
+}
+
+body {
+    margin: 0;
+}
+
+.field_missed {
+    background: rgba(255, 0, 0, 0.38);
+}
+
+.field_missed:hover {
+    color: rgba(255, 0, 0);
+}
+
