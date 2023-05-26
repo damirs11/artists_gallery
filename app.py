@@ -3,7 +3,7 @@ from flask_caching import Cache
 from flask_cors import CORS
 from flask_restful import Api
 
-from libs.vk_parser import VkParser, get_data_from_excel
+from vk_parser import VkParser, get_data_from_excel
 
 config = {
     "DEBUG": True,  # some Flask specific configs
